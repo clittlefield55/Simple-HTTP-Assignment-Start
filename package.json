@@ -1,0 +1,21 @@
+{
+  "name": "simple_http",
+  "version": "1.0.0",
+  "description": "Simple Http Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher Littlefield",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint .src --fix",
+    "test": "echo \"Tests complete\""
+  }
+}
